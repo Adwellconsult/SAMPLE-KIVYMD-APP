@@ -27,7 +27,7 @@ MDScreen:
         AppScreen = Builder.load_string(self.appKv)
         self.apply_styles("Light")
         return AppScreen
-
+#test comment
     def apply_styles(self, style: str = "Light") -> None:
         self.theme_cls.theme_style = style
         if style == "Light":
